@@ -24,6 +24,7 @@ class FourthViewController: UIViewController {
         destinationVC.labelString = "Data from last screen"
         destinationVC.congratulationsImageView.image = UIImage(named: "congratulations")
         destinationVC.nextButtonBottomConstraint.constant = 100
+        destinationVC.nextButton.isHidden = true
         destinationVC.resetButton.isHidden = false
     }
 }

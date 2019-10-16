@@ -89,9 +89,11 @@
                     <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="2zg-6D-kJg"/>
                     <connections>
                         <outlet property="congratulationsImageView" destination="po0-0w-LEs" id="jIB-XG-u81"/>
-                        <outlet property="nextButtonBottomConstraint" destination="YnR-Yv-mDT" id="W1m-Tl-QL8"/>
+                        <outlet property="nextButton" destination="1Rj-bl-563" id="9B4-DW-en0"/>
+                        <outlet property="nextButtonBottomConstraint" destination="YnR-Yv-mDT" id="YRt-uS-BrG"/>
                         <outlet property="resetButton" destination="vik-gp-SsN" id="epF-2C-6kV"/>
                         <outlet property="textLabel" destination="JTe-TL-mg9" id="emz-N7-RfO"/>
+                        <outlet property="textLabelBottomConstraint" destination="rab-sa-QLg" id="9GR-xJ-FGD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

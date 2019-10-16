@@ -13,8 +13,10 @@ class FirstViewController: UIViewController {
     //  MARK:- Interface builder Outelets
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var congratulationsImageView: UIImageView!
-    @IBOutlet weak var nextButtonBottomConstraint: NSLayoutConstraint!
+    @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
+    @IBOutlet weak var nextButtonBottomConstraint: NSLayoutConstraint!
+    @IBOutlet weak var textLabelBottomConstraint: NSLayoutConstraint!
     
     //  Properties
     let defaultLabelText = "Nothing here as of now"
@@ -52,6 +54,7 @@ class FirstViewController: UIViewController {
             textLabel.text = defaultLabelText
             resetButton.isHidden = true
             nextButtonBottomConstraint.constant = 50
+            nextButton.isHidden = false
         }
     }
 }
